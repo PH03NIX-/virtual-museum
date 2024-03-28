@@ -1,0 +1,71 @@
+2024-03-28T01:15:45.816819Z	Cloning repository...
+2024-03-28T01:15:46.661259Z	From https://github.com/PH03NIX-/virtual-museum
+2024-03-28T01:15:46.661735Z	 * branch            575ef7179618dd06013372dc7ed98a8c44b3ae44 -> FETCH_HEAD
+2024-03-28T01:15:46.661855Z	
+2024-03-28T01:15:46.699352Z	HEAD is now at 575ef71 Initial Commit
+2024-03-28T01:15:46.699714Z	
+2024-03-28T01:15:46.784073Z	
+2024-03-28T01:15:46.784744Z	Using v2 root directory strategy
+2024-03-28T01:15:46.81295Z	Success: Finished cloning repository files
+2024-03-28T01:15:47.675584Z	Detected the following tools from environment: npm@9.6.7, nodejs@18.17.1
+2024-03-28T01:15:47.676652Z	Installing project dependencies: npm clean-install --progress=false
+2024-03-28T01:15:52.024936Z	npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+2024-03-28T01:15:52.485881Z	npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+2024-03-28T01:15:52.509505Z	npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+2024-03-28T01:15:52.651075Z	npm WARN deprecated rollup-plugin-terser@7.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+2024-03-28T01:15:52.755937Z	npm WARN deprecated workbox-cacheable-response@6.6.0: workbox-background-sync@6.6.0
+2024-03-28T01:15:52.959842Z	npm WARN deprecated workbox-google-analytics@6.6.0: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
+2024-03-28T01:15:54.750032Z	npm WARN deprecated domexception@2.0.1: Use your platform's native DOMException instead
+2024-03-28T01:15:55.2139Z	npm WARN deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+2024-03-28T01:15:55.43197Z	npm WARN deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+2024-03-28T01:15:56.530201Z	npm WARN deprecated @babel/plugin-proposal-private-methods@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
+2024-03-28T01:15:56.561525Z	npm WARN deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+2024-03-28T01:15:56.576936Z	npm WARN deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+2024-03-28T01:15:56.577348Z	npm WARN deprecated @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+2024-03-28T01:15:56.660701Z	npm WARN deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+2024-03-28T01:16:02.831637Z	
+2024-03-28T01:16:02.831937Z	added 1561 packages, and audited 1562 packages in 14s
+2024-03-28T01:16:02.832226Z	
+2024-03-28T01:16:02.832431Z	262 packages are looking for funding
+2024-03-28T01:16:02.832601Z	  run `npm fund` for details
+2024-03-28T01:16:02.839663Z	
+2024-03-28T01:16:02.839899Z	8 vulnerabilities (2 moderate, 6 high)
+2024-03-28T01:16:02.840024Z	
+2024-03-28T01:16:02.840095Z	To address all issues (including breaking changes), run:
+2024-03-28T01:16:02.840155Z	  npm audit fix --force
+2024-03-28T01:16:02.84024Z	
+2024-03-28T01:16:02.840302Z	Run `npm audit` for details.
+2024-03-28T01:16:02.870424Z	Executing user command: npm run build
+2024-03-28T01:16:03.445414Z	
+2024-03-28T01:16:03.445649Z	> virtual-museum@0.1.0 build
+2024-03-28T01:16:03.445783Z	> react-scripts build
+2024-03-28T01:16:03.445907Z	
+2024-03-28T01:16:04.957391Z	Creating an optimized production build...
+2024-03-28T01:16:08.714273Z	[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+2024-03-28T01:16:08.715268Z	"@babel/plugin-proposal-private-property-in-object" package without
+2024-03-28T01:16:08.715426Z	declaring it in its dependencies. This is currently working because
+2024-03-28T01:16:08.715821Z	"@babel/plugin-proposal-private-property-in-object" is already in your
+2024-03-28T01:16:08.715945Z	node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+2024-03-28T01:16:08.716134Z	
+2024-03-28T01:16:08.716211Z	babel-preset-react-app is part of the create-react-app project, [1mwhich
+2024-03-28T01:16:08.716269Z	is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+2024-03-28T01:16:08.71635Z	ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+2024-03-28T01:16:08.716488Z	your devDependencies to work around this error. This will make this message
+2024-03-28T01:16:08.716585Z	go away.[0m
+2024-03-28T01:16:08.716711Z	  
+2024-03-28T01:16:15.874243Z	
+2024-03-28T01:16:15.874563Z	Treating warnings as errors because process.env.CI = true.
+2024-03-28T01:16:15.874701Z	Most CI servers set it automatically.
+2024-03-28T01:16:15.874893Z	
+2024-03-28T01:16:15.874999Z	Failed to compile.
+2024-03-28T01:16:15.875067Z	
+2024-03-28T01:16:15.875583Z	[eslint] 
+2024-03-28T01:16:15.875744Z	src/VirtualMuseum.js
+2024-03-28T01:16:15.875864Z	  Line 192:5:   Expected a default case                                                                                                                                                                                                                                          default-case
+2024-03-28T01:16:15.876015Z	  Line 214:5:   Expected a default case                                                                                                                                                                                                                                          default-case
+2024-03-28T01:16:15.876096Z	  Line 310:16:  The ref value 'mountRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'mountRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+2024-03-28T01:16:15.876157Z	
+2024-03-28T01:16:15.876234Z	
+2024-03-28T01:16:15.922081Z	Failed: Error while executing user command. Exited with error code: 1
+2024-03-28T01:16:15.930536Z	Failed: build command exited with code: 1
+2024-03-28T01:16:16.895526Z	Failed: error occurred while running build command
